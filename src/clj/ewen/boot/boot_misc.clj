@@ -4,7 +4,6 @@
 
 
 (deftask add-src
-         "This is untested but should work..."
          []
          (with-pre-wrap fileset
                         (let [src-dirs (map io/file (:source-paths (get-env)))]
